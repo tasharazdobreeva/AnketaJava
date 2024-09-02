@@ -1,11 +1,10 @@
 public class Post {
-    public int id;
     public String name;
     public String passport;
     public String patronymic;
     public String phone;
     public String surname;
-    public Boolean subscription;
+    public boolean subscription;
 
     public FormDate birthday;
 

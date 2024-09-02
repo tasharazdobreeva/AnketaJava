@@ -1,22 +1,19 @@
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         Post post = new Post();
 
         post.birthday = new FormDate();
         post.birthday.day = 22;
-        post.birthday.month = 01;
+        post.birthday.month = 1;
         post.birthday.year = 1980;
 
-        post.id = 1111111;
         post.name = "Иван";
         post.passport = "4444 № 44444444";
         post.patronymic = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
         post.subscription = true;
-
-        System.out.println(post.id);
 
     }
 }
